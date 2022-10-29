@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+
+}
+
+.grid {
+	display: grid;
+	place-items: center;
+
+	gap: 1rem;
+	/* The fact is that it only takes these two lines of code to do a nice grid makes me want to vommit joy */
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.card {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image{
+	width: 240px;
+}
+
