@@ -38,7 +38,7 @@
     src: url("comic-sans-ms/comici.ttf");
   }
 
-.title {
+.title-wiggly {
     font-family: 'Itim', cursive;
     color: hsla(12, 36%, 61%, 0);
     font-size: 7vw;
@@ -47,6 +47,7 @@
     animation-timing-function: ease;
     animation-iteration-count: infinite;
     animation-duration: 1s;
+    margin-top:0;
 }
 
 @keyframes gradient {
